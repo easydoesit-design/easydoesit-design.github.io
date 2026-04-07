@@ -1,31 +1,34 @@
-# Site Build Settings
+# Example Site settings
 
-# jekyll-paginate configuration
-paginate:            5
+#header_pages:
+#  - index.md
+#  - about.md
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag, jekyll-remote-theme]
-remote_theme: b2a3e8/jekyll-theme-console
+#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Andras Pokorny"
-description:	       "designer"
-author:              ""
+plugins:
+  - jekyll-seo-tag
 
-style: light   # try light first, we can tune later
+# Theme options
+# style: dark # dark (default) or light or hacker
+# listen_for_clients_preferred_style: true # true or false (default)
 
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
-  - writing.md
+# Fonts
+# disable_google_fonts: false # set true to prevent loading fonts.googleapis.com
 
-footer: ":: work in progress ::"
-
-
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+# Tracking (generic, optional; loads only in production)
+# tracking:
+#   script_src:
+#     - https://analytics.example.com/matomo.js
+#   async: true   # default true
+#   defer: false  # default false
+#   # Optional inline init snippet (requires CSP allowance if used)
+#   # init: |
+#   #   var _paq = window._paq = window._paq || [];
+#   #   _paq.push(['trackPageView']);
+#   #   _paq.push(['enableLinkTracking']);
+#   #   _paq.push(['setTrackerUrl', 'https://analytics.example.com/matomo.php']);
+#   #   _paq.push(['setSiteId', '1']);
+#
+# # Extend CSP to allow your tracker sources (script-src/connect-src/img-src as needed)
+# # csp_extra: "script-src 'self' https://analytics.example.com; connect-src 'self' https://analytics.example.com; img-src 'self' https://analytics.example.com;"
