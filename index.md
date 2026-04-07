@@ -1,9 +1,10 @@
 ---
-title: Andras Pokorny
+title: Home
 layout: home
 permalink: /
 ---
 
+# Andras Pokorny
 # Lifelong Designer, Environment Shaper, World Maker
 I believe in the body’s knowledge and am interested in careful, empathetic design -- work that connects within and enriches our shared world.
 
