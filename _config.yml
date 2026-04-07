@@ -6,8 +6,8 @@ header_pages:
 
 footer: 'follow me'
 
-plugins:
-  - jekyll-seo-tag
+plugins: jekyll-seo-tag
+  theme: jekyll-theme-console
 
 # Theme options
 style: light # dark (default) or light or hacker
