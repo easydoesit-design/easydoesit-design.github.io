@@ -2,7 +2,9 @@
 
 header_pages:
   - index.md
-  - about.md
+  - work.md
+  - thought.md
+  - experience.md
 
 footer: 'follow me'
 
