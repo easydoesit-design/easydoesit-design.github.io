@@ -4,7 +4,8 @@ layout: home
 permalink: /
 ---
 
-## Andras Pokorny
+# Andras Pokorny
+
 
 *Lifelong Designer, Environment Shaper, World Maker*
 
