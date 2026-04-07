@@ -1,7 +1,7 @@
 title: "Andras Pokorny"
 description: "designer"
 
-theme: jekyll-theme-console
+# theme: jekyll-theme-console
 
 plugins:
   - jekyll-seo-tag
