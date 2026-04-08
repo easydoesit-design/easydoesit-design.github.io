@@ -8,7 +8,7 @@ permalink: /
 
 *Lifelong Designer, Environment Shaper, World Maker*
 
-<img src="/assets/images/Andras_class.jpeg" alt="Andras portrait" align="right" width="100">
+<img src="/assets/images/Andras_class.jpeg" alt="Andras portrait" align="right" width="250">
 
 <p>I believe in the body’s knowledge and am interested in careful, empathetic design -- work that connects within and enriches our shared world.
 
