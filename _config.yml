@@ -7,11 +7,11 @@ plugins:
   - jekyll-seo-tag
 
 header_pages:
-  - index.md
   - work.md
   - thought.md
   - experience.md
+  - index.md
 
-footer: "follow me"
+footer: "keep in touch"
 
 style: light
