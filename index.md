@@ -12,7 +12,7 @@ I believe in the body’s knowledge and am interested in careful, empathetic des
 
 I work to hone my intuition and create conditions for creativity to emerge. Focusing on collaboartive proejects has helped me understand my own intentions and motivations more clearly, and how to foster an atmosphere of trust and transparency, key to succesful communication.
 
-<img src="/assets/images/Andras_class.jpg" alt="Andras portrait" width="100">
+<img src="/assets/images/Andras_class.jpeg" alt="Andras portrait" width="100">
 
 
 ![Andras portrait](/assets/images/Andras_class.jpeg)
