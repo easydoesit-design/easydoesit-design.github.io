@@ -17,8 +17,8 @@ A selection of projects, experiments, and prototypes exploring accessibility, en
 <p>The proposal combines ideas of vertical-axis wind harvesting, responsive materials, and situated urban observation. It reflects my interest in the city as a layered environmental system and in design as a way to translate invisible forces into visible experience.</p>  
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
-  <img src="/assets/images/ILGSbeacon2.jpeg" alt="Microclimate Beacon 2" width="250">
-  <img src="/assets/images/ILGSbeacon3.jpeg" alt="Microclimate Beacon 3" width="250">
+  <img src="/assets/images/ILGSbeacon2.jpeg" alt="Microclimate Beacon 2" width="275">
+  <img src="/assets/images/ILGSbeacon3.jpeg" alt="Microclimate Beacon 3" width="275">
 </div>
 
 ---
@@ -31,7 +31,7 @@ A handle redesign for a garlic press developed through an accessibility-focused 
 
 The design process focused on form, control, and ease of pressing while maintaining a compact everyday object. This project reflects my broader interest in accessible design and in adapting products to real bodies rather than idealized norms.
 
-![Accessible garlic press prototype](/assets/images/ILGSbeacon2.jpeg)
+![Accessible garlic press prototype](/assets/images/ILGSbeacon2small.jpeg)
 
 ---
 
