@@ -12,15 +12,15 @@ A selection of projects, experiments, and prototypes exploring accessibility, en
 
 *Speculative environmental interface · urban microclimates · public infrastructure*
 
-<p>A conceptual device developed through research into urban microclimates, wind behavior, and local environmental sensing. The project explores how small-scale atmospheric conditions might be observed, expressed, and made legible through a sculptural public-facing object.</p>
+<p>A conceptual device developed through research into urban microclimates, wind behavior, and local environmental sensing. The project explores how small-scale atmospheric conditions might be observed, expressed, and made legible through a sculptural public-facing object.
 
-<img src="/assets/images/ILGSbeacon1.png" alt="Microclimate Beacon 1" align="right" width="250">
+The proposal combines ideas of vertical-axis wind harvesting, responsive materials, and situated urban observation. It reflects my interest in the city as a layered environmental system and in design as a way to translate invisible forces into visible experience.</p>  
 
-<p>The proposal combines ideas of vertical-axis wind harvesting, responsive materials, and situated urban observation. It reflects my interest in the city as a layered environmental system and in design as a way to translate invisible forces into visible experience.</p>  
-
-<img src="/assets/images/ILGSbeacon2.jpeg" alt="Microclimate Beacon 2" align="right" width="250">
-
-<img src="/assets/images/ILGSbeacon3.jpeg" alt="Microclimate Beacon 3" align="right" width="250">
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/ILGSbeacon1.png" alt="Microclimate Beacon 1" width="250">
+  <img src="/assets/images/ILGSbeacon2.jpeg" alt="Microclimate Beacon 2" width="250">
+  <img src="/assets/images/ILGSbeacon3.jpeg" alt="Microclimate Beacon 3" width="250">
+</div>
 
 ---
 
