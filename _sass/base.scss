@@ -26,6 +26,7 @@ a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 
+
 /**
  * Layout
  */
@@ -136,3 +137,14 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+.image-center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-center img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
