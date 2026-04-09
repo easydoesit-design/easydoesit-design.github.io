@@ -30,9 +30,9 @@ A selection of projects, experiments, and prototypes exploring accessibility, en
 A handle redesign for a garlic press developed through an accessibility-focused design process. The project considers grip strength, comfort, leverage, and hand variation, asking how a familiar kitchen tool might better support a wider range of users.
 
 The design process focused on form, control, and ease of pressing while maintaining a compact everyday object. This project reflects my broader interest in accessible design and in adapting products to real bodies rather than idealized norms.
-
+<div style="justify-content:center;">
 ![Accessible garlic press prototype](/assets/images/ILGSbeacon2small.jpeg)
-
+</div> 
 
 ---
 
