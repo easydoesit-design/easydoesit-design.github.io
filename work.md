@@ -16,10 +16,8 @@ A selection of projects, experiments, and prototypes exploring accessibility, en
 
 <p>The proposal combines ideas of vertical-axis wind harvesting, responsive materials, and situated urban observation. It reflects my interest in the city as a layered environmental system and in design as a way to translate invisible forces into visible experience.</p>  
 
-<div class="image-center">
-  ![Bike Path Microclimate Beacon](/assets/images/ILGSbeacon3small.jpeg)
-  ![Microclimate Lamp Post Beacon Manhattan Bridge](/assets/images/ILGSbeacon2small.jpeg)
-</div>
+![Bike Path Microclimate Beacon](/assets/images/ILGSbeacon3small.jpeg)
+![Microclimate Lamp Post Beacon Manhattan Bridge](/assets/images/ILGSbeacon2small.jpeg)
 
 ---
 
