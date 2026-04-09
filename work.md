@@ -16,11 +16,7 @@ A selection of projects, experiments, and prototypes exploring accessibility, en
 
 The proposal combines ideas of vertical-axis wind harvesting, responsive materials, and situated urban observation. It reflects my interest in the city as a layered environmental system and in design as a way to translate invisible forces into visible experience.</p>  
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/images/ILGSbeacon1.png" alt="Microclimate Beacon 1" width="250">
-  <img src="/assets/images/ILGSbeacon2.jpeg" alt="Microclimate Beacon 2" width="250">
-  <img src="/assets/images/ILGSbeacon3.jpeg" alt="Microclimate Beacon 3" width="250">
-</div>
+<img src="/assets/images/ILGSbeacon1.png" style="float: right; margin: 0 0 10px 15px;" width="250">
 
 ---
 
