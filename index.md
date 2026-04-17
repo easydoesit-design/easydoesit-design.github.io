@@ -6,7 +6,7 @@ permalink: /
 
 ## Andras Pokorny
 
-*Systems & Product Designer, Open Source Hacker*
+*Systems & Product Design, Open Tool and Resource Hacking*
 
 <img src="/assets/images/Andras_class.jpeg" alt="Andras portrait" align="right" width="250">
 
