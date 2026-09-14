@@ -1,0 +1,202 @@
+// ===================================
+// DOMUS THEME — HOME PAGE STYLES
+// ===================================
+// Hero, intro, and homepage-specific styling
+
+// ===================================
+// HERO SECTION
+// ===================================
+
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $color-background;
+  
+  @media (max-width: $bp-tablet) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $gutter-lg;
+  align-items: center;
+  
+  @media (max-width: $bp-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero-text {
+  h1 {
+    margin-bottom: $spacing-md;
+    line-height: 0.95;
+  }
+  
+  p {
+    font-size: $fs-lg;
+    line-height: $lh-relaxed;
+    color: $color-gray-med;
+    margin-bottom: $spacing-md;
+  }
+}
+
+.hero-image {
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+    box-shadow: $shadow-lg;
+  }
+}
+
+// ===================================
+// INTRO SECTION
+// ===================================
+
+.intro {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: $spacing-xl;
+  padding-bottom: $spacing-xl;
+}
+
+.intro-title {
+  font-size: $fs-5xl;
+  color: $color-red;
+  margin-bottom: $spacing-lg;
+}
+
+.intro-text {
+  font-size: $fs-lg;
+  line-height: $lh-relaxed;
+  color: $color-gray-med;
+}
+
+// ===================================
+// FEATURED PROJECTS SECTION
+// ===================================
+
+.featured-projects {
+  margin-top: $margin-section;
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: $spacing-2xl;
+  }
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: $gutter-lg;
+  
+  @media (max-width: $bp-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ===================================
+// SECTION WITH HIGHLIGHT
+// ===================================
+
+// Hero-like section with RED background or RED text
+.section-highlight {
+  background-color: $color-background;
+  padding-top: $spacing-2xl;
+  padding-bottom: $spacing-2xl;
+  margin-top: $margin-section;
+  margin-bottom: $margin-section;
+  
+  h2 {
+    color: $color-red;
+    font-size: $fs-6xl;
+    margin-bottom: $spacing-lg;
+  }
+  
+  p {
+    font-size: $fs-lg;
+    line-height: $lh-relaxed;
+  }
+}
+
+// ===================================
+// ABOUT/MISSION STATEMENT
+// ===================================
+
+.mission {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: $spacing-2xl;
+  padding-bottom: $spacing-2xl;
+}
+
+.mission-heading {
+  color: $color-red;
+  font-size: $fs-6xl;
+  font-family: $font-sans;
+  font-weight: $weight-bold;
+  margin-bottom: $spacing-lg;
+  line-height: $lh-tight;
+}
+
+.mission-text {
+  font-size: $fs-lg;
+  line-height: $lh-relaxed;
+  color: $color-text;
+  
+  p {
+    margin-bottom: $spacing-lg;
+  }
+}
+
+// ===================================
+// CTA SECTION
+// ===================================
+
+.cta-section {
+  background-color: $color-black;
+  color: $color-white;
+  padding-top: $spacing-2xl;
+  padding-bottom: $spacing-2xl;
+  text-align: center;
+  margin-top: $margin-section;
+  
+  h2 {
+    color: $color-red;
+  }
+  
+  p {
+    color: $color-white;
+    font-size: $fs-lg;
+  }
+}
+
+// ===================================
+// HOME PAGE RESPONSIVE
+// ===================================
+
+@media (max-width: $bp-mobile) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .hero-content {
+    gap: $gutter-md;
+  }
+  
+  .hero-text h1 {
+    font-size: $fs-5xl;
+  }
+  
+  .intro-title {
+    font-size: $fs-4xl;
+  }
+}

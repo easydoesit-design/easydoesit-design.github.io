@@ -1,0 +1,148 @@
+// ===================================
+// DOMUS THEME — VARIABLES
+// ===================================
+// Color palette, typography, spacing, and sizing
+
+// ===================================
+// COLORS
+// ===================================
+
+$color-red:        #A10D19;
+$color-blue:       #00709A;
+$color-green:      #006344;
+$color-black:      #181818;
+$color-background: #F6F3EB;
+$color-white:      #FFFFFF;
+
+// Neutral grays (derived from black/background)
+$color-text:       $color-black;
+$color-gray-dark:  #3D3D3D;
+$color-gray-med:   #7A7A7A;
+$color-gray-light: #D4D0C8;
+$color-border:     #CCCCCC;
+
+// ===================================
+// TYPOGRAPHY
+// ===================================
+
+// Font families (web-safe + Google Fonts fallback)
+$font-sans:  'Helvetica Neue', 'Roboto', Arial, sans-serif;
+$font-serif: 'Crimson Text', Georgia, serif;
+
+// Font weights
+$weight-regular: 400;
+$weight-bold:    700;
+$weight-black:   900;
+
+// Font sizes (modular scale, base 16px)
+$fs-xs:    12px;
+$fs-sm:    14px;
+$fs-base:  16px;
+$fs-lg:    18px;
+$fs-xl:    20px;
+$fs-2xl:   24px;
+$fs-3xl:   28px;
+$fs-4xl:   32px;
+$fs-5xl:   40px;
+$fs-6xl:   48px;
+$fs-7xl:   56px;
+$fs-8xl:   64px;
+
+// Line heights
+$lh-tight:   1.2;
+$lh-normal:  1.5;
+$lh-relaxed: 1.8;
+$lh-loose:   2;
+
+// Letter spacing
+$ls-tight:  -0.02em;
+$ls-normal: 0;
+$ls-wide:   0.05em;
+
+// ===================================
+// SPACING (8px base unit)
+// ===================================
+
+$space-0:  0;
+$space-1:  4px;
+$space-2:  8px;
+$space-3:  12px;
+$space-4:  16px;
+$space-5:  20px;
+$space-6:  24px;
+$space-8:  32px;
+$space-10: 40px;
+$space-12: 48px;
+$space-16: 64px;
+$space-20: 80px;
+$space-24: 96px;
+
+// Shorthand spacing (margin/padding)
+$spacing-xs:  $space-2;
+$spacing-sm:  $space-4;
+$spacing-md:  $space-6;
+$spacing-lg:  $space-10;
+$spacing-xl:  $space-16;
+$spacing-2xl: $space-20;
+$spacing-3xl: $space-24;
+
+// ===================================
+// LAYOUT
+// ===================================
+
+// Container widths
+$container-sm:  600px;
+$container-md:  900px;
+$container-lg:  1100px;
+$container-xl:  1200px;
+$container-max: 1400px;
+
+// Margins (Domus aesthetic: very generous)
+$margin-side:    60px;  // Outer margins
+$margin-section: 80px;  // Between sections
+
+// Gutters between columns
+$gutter-sm: 20px;
+$gutter-md: 30px;
+$gutter-lg: 40px;
+
+// ===================================
+// BREAKPOINTS
+// ===================================
+
+$bp-mobile:  480px;
+$bp-tablet:  768px;
+$bp-desktop: 1024px;
+$bp-wide:    1280px;
+
+// ===================================
+// BORDERS & SHADOWS
+// ===================================
+
+$border-thin:   1px;
+$border-normal: 2px;
+$border-thick:  3px;
+
+$shadow-sm:  0 1px 3px rgba($color-black, 0.1);
+$shadow-md:  0 4px 8px rgba($color-black, 0.1);
+$shadow-lg:  0 8px 16px rgba($color-black, 0.15);
+
+// ===================================
+// TRANSITIONS
+// ===================================
+
+$duration-fast:   150ms;
+$duration-normal: 300ms;
+$duration-slow:   500ms;
+
+$easing-ease-in:  cubic-bezier(0.4, 0, 1, 1);
+$easing-ease-out: cubic-bezier(0, 0, 0.2, 1);
+$easing-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+// ===================================
+// Z-INDEX SCALE
+// ===================================
+
+$z-dropdown:  100;
+$z-sticky:    200;
+$z-modal:     1000;

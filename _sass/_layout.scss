@@ -1,0 +1,392 @@
+// ===================================
+// DOMUS THEME — LAYOUT & COMPONENTS
+// ===================================
+// Container, sections, and page structure
+
+// ===================================
+// CONTAINER
+// ===================================
+
+.container {
+  width: 100%;
+  max-width: $container-lg;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $margin-side;
+  padding-right: $margin-side;
+  
+  // Breakpoints
+  @media (max-width: $bp-tablet) {
+    max-width: $container-md;
+    padding-left: $spacing-lg;
+    padding-right: $spacing-lg;
+  }
+  
+  @media (max-width: $bp-mobile) {
+    max-width: 100%;
+    padding-left: $spacing-md;
+    padding-right: $spacing-md;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: $margin-side;
+  padding-right: $margin-side;
+}
+
+.container-wide {
+  max-width: $container-xl;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $margin-side;
+  padding-right: $margin-side;
+}
+
+// ===================================
+// SECTION
+// ===================================
+
+section {
+  padding-top: $margin-section;
+  padding-bottom: $margin-section;
+  
+  @media (max-width: $bp-tablet) {
+    padding-top: $spacing-2xl;
+    padding-bottom: $spacing-2xl;
+  }
+  
+  @media (max-width: $bp-mobile) {
+    padding-top: $spacing-xl;
+    padding-bottom: $spacing-xl;
+  }
+}
+
+// Sections with background color
+section.light {
+  background-color: $color-background;
+}
+
+section.white {
+  background-color: $color-white;
+}
+
+section.dark {
+  background-color: $color-black;
+  color: $color-white;
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: $color-white;
+  }
+  
+  p, a {
+    color: $color-white;
+  }
+  
+  a {
+    border-bottom-color: $color-white;
+    
+    &:hover {
+      color: $color-red;
+      border-bottom-color: $color-red;
+    }
+  }
+}
+
+// ===================================
+// HEADER & FOOTER
+// ===================================
+
+header {
+  padding-top: $spacing-lg;
+  padding-bottom: $spacing-lg;
+  border-bottom: 2px solid $color-black;
+  margin-bottom: $margin-section;
+  
+  @media (max-width: $bp-tablet) {
+    padding-top: $spacing-md;
+    padding-bottom: $spacing-md;
+    margin-bottom: $spacing-2xl;
+  }
+}
+
+footer {
+  padding-top: $margin-section;
+  padding-bottom: $spacing-xl;
+  border-top: 2px solid $color-black;
+  margin-top: $margin-section;
+  background-color: $color-background;
+  font-size: $fs-sm;
+  color: $color-gray-med;
+  
+  @media (max-width: $bp-tablet) {
+    padding-top: $spacing-2xl;
+    margin-top: $spacing-2xl;
+  }
+}
+
+// ===================================
+// MAIN CONTENT
+// ===================================
+
+main {
+  min-height: calc(100vh - 200px);
+}
+
+// ===================================
+// GRID SYSTEM
+// ===================================
+
+.grid {
+  display: grid;
+  gap: $gutter-lg;
+  
+  @media (max-width: $bp-tablet) {
+    gap: $gutter-md;
+  }
+  
+  @media (max-width: $bp-mobile) {
+    gap: $gutter-sm;
+  }
+}
+
+// Two-column grid
+.grid-2 {
+  grid-template-columns: 1fr 1fr;
+  
+  @media (max-width: $bp-tablet) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Three-column grid
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  @media (max-width: $bp-tablet) {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @media (max-width: $bp-mobile) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ===================================
+// FLEXBOX UTILITIES
+// ===================================
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-gap-md {
+  gap: $spacing-md;
+}
+
+.flex-gap-lg {
+  gap: $spacing-lg;
+}
+
+// ===================================
+// SPACING UTILITIES
+// ===================================
+
+// Margin
+.m-0  { margin: 0; }
+.m-sm { margin: $spacing-sm; }
+.m-md { margin: $spacing-md; }
+.m-lg { margin: $spacing-lg; }
+.m-xl { margin: $spacing-xl; }
+
+.mt-sm { margin-top: $spacing-sm; }
+.mt-md { margin-top: $spacing-md; }
+.mt-lg { margin-top: $spacing-lg; }
+.mt-xl { margin-top: $spacing-xl; }
+
+.mb-sm { margin-bottom: $spacing-sm; }
+.mb-md { margin-bottom: $spacing-md; }
+.mb-lg { margin-bottom: $spacing-lg; }
+.mb-xl { margin-bottom: $spacing-xl; }
+
+// Padding
+.p-sm { padding: $spacing-sm; }
+.p-md { padding: $spacing-md; }
+.p-lg { padding: $spacing-lg; }
+.p-xl { padding: $spacing-xl; }
+
+// ===================================
+// CARD COMPONENT
+// ===================================
+
+.card {
+  background-color: $color-white;
+  border: 1px solid $color-border;
+  padding: $spacing-lg;
+  margin-bottom: $spacing-lg;
+  transition: all $duration-normal $easing-ease-out;
+  
+  &:hover {
+    box-shadow: $shadow-lg;
+    border-color: $color-red;
+  }
+}
+
+.card-header {
+  padding-bottom: $spacing-md;
+  margin-bottom: $spacing-md;
+  border-bottom: 2px solid $color-border;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-footer {
+  padding-top: $spacing-md;
+  margin-top: $spacing-md;
+  border-top: 1px solid $color-border;
+  font-size: $fs-sm;
+  color: $color-gray-med;
+}
+
+// ===================================
+// BUTTON STYLES
+// ===================================
+
+.btn {
+  display: inline-block;
+  padding: $spacing-sm $spacing-lg;
+  font-family: $font-sans;
+  font-size: $fs-base;
+  font-weight: $weight-bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: $ls-wide;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all $duration-fast $easing-ease-out;
+  text-decoration: none;
+  display: inline-block;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $shadow-md;
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+// Button variants
+.btn-primary {
+  background-color: $color-red;
+  color: $color-white;
+  
+  &:hover {
+    background-color: darken($color-red, 10%);
+    color: $color-white;
+  }
+}
+
+.btn-secondary {
+  background-color: $color-blue;
+  color: $color-white;
+  
+  &:hover {
+    background-color: darken($color-blue, 10%);
+  }
+}
+
+.btn-outline {
+  border-color: $color-black;
+  color: $color-black;
+  background-color: transparent;
+  
+  &:hover {
+    background-color: $color-black;
+    color: $color-white;
+  }
+}
+
+// ===================================
+// DIVIDER
+// ===================================
+
+.divider {
+  height: 2px;
+  background-color: $color-black;
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-xl;
+  
+  &.red    { background-color: $color-red; }
+  &.blue   { background-color: $color-blue; }
+  &.green  { background-color: $color-green; }
+}
+
+// ===================================
+// SPACING BETWEEN ELEMENTS
+// ===================================
+
+// Stack items vertically with consistent spacing
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.stack-md {
+  gap: $spacing-md;
+}
+
+.stack-sm {
+  gap: $spacing-sm;
+}
+
+// ===================================
+// RESPONSIVE UTILITIES
+// ===================================
+
+.hide-mobile {
+  @media (max-width: $bp-mobile) {
+    display: none !important;
+  }
+}
+
+.hide-tablet {
+  @media (max-width: $bp-tablet) {
+    display: none !important;
+  }
+}
+
+.show-mobile {
+  display: none;
+  
+  @media (max-width: $bp-mobile) {
+    display: block;
+  }
+}
+
+.show-tablet {
+  display: none;
+  
+  @media (max-width: $bp-tablet) {
+    display: block;
+  }
+}
