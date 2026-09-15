@@ -56,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Andras Pokorny"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Industrial Design neophyte, lifeling designer -- recovering musician and tinkerer"
+  bio    : "Recovering Musician and Tinkerer; Industril Design Neophyte"
 #   links:
 #    - label: "Website"
  #     icon: "fas fa-fw fa-link"
