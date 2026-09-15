@@ -60,6 +60,21 @@ $type-size-4: 1.25em;
 $type-size-5: 1em;
 $type-size-6: 0.75em;
 
+/* --- Headline scale --- */
+
+$h-size-1: 3.25em;
+$h-size-2: 2.25em;
+$h-size-3: 1.6em;
+$h-size-4: 1.25em;
+$h-size-5: 1em;
+$h-size-6: 0.85em;
+
+
+/* --- More editorial geometry --- */
+
+$max-width: 1440px;
+$border-radius: 0px;
+
 
 /* ============================================================
    LOAD MINIMAL MISTAKES
@@ -131,4 +146,130 @@ a:hover {
   background: $domus-paper;
   color: $domus-black;
   border-top: 2px solid $domus-black;
+}
+
+/* ============================================================
+   HOMEPAGE — EDITORIAL PASS 01
+   ============================================================ */
+
+
+/* Let the homepage use the page width once the author sidebar is gone */
+
+.layout--home .archive {
+  float: none;
+  width: 100%;
+  padding-inline-end: 0;
+}
+
+
+/* Masthead */
+
+.site-title {
+  font-family: $sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+.greedy-nav .visible-links a {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+/* "Recent Posts" becomes more like an editorial section marker */
+
+.layout--home .archive__subtitle {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.4rem;
+
+  color: $domus-red;
+
+  font-family: $sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  border-bottom: 2px solid $domus-red;
+}
+
+
+/* Each homepage entry */
+
+.layout--home .list__item {
+  margin: 0;
+  padding: 1.5rem 0 2rem;
+
+  border-bottom: 1px solid $domus-black;
+}
+
+
+/* Big magazine-style article/project title */
+
+.layout--home .archive__item-title {
+  margin: 0.15rem 0 0.6rem;
+
+  font-family: $sans-serif;
+  font-size: clamp(2rem, 5vw, 4.75rem);
+  font-weight: 700;
+  line-height: 0.92;
+  letter-spacing: -0.055em;
+
+  overflow: visible;
+}
+
+.layout--home .archive__item-title a {
+  color: $domus-black;
+  text-decoration: none;
+}
+
+.layout--home .archive__item-title a:hover {
+  color: $domus-red;
+}
+
+
+/* Small metadata like magazine folio/caption text */
+
+.layout--home .page__meta {
+  margin-bottom: 0.6rem;
+
+  font-family: $sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+/* Reading text */
+
+.layout--home .archive__item-excerpt {
+  max-width: 42rem;
+  margin-top: 0.5rem;
+
+  font-family: $serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* Lose some of the generic web-link appearance */
+
+.layout--home .archive__item-excerpt a {
+  color: $domus-blue;
+}
+
+
+/* Footer becomes another printed rule */
+
+.page__footer {
+  margin-top: 4rem;
 }
