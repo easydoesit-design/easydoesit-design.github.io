@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
    Problem Solver, Thought Communicator, Idea Builder, Collaborative Listener
 # twitter_username: username
 # github_username: username
-minimal_mistakes_skin: dirt
-search: true
+minimal_mistakes_skin: default
+search: false
 
 # Build settings
 markdown: kramdown
@@ -58,8 +58,8 @@ plugins:
 author:
   name   : "Andras Pokorny"
   avatar : "/assets/images/headcloseup.jpg"
-  bio    : "Recovering Musician and Tinkerer"
-  bio    : "Industrial Design Neophyte"
+  bio    : "Industrial Design"
+#  bio    : "Industrial Design Neophyte"
 #   links:
 #    - label: "Website"
  #     icon: "fas fa-fw fa-link"
