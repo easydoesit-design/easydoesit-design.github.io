@@ -16,7 +16,7 @@
 title: Andras Pokorny
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Problem solving as lifestyle -- Design born of careful listening, observation and thought. Collaborative, humane, adaptable solutions. 
+   Problem Solver, Thought Communicator, Idea Builder, Collaborative Listener
 # twitter_username: username
 # github_username: username
 minimal_mistakes_skin: dirt
@@ -58,7 +58,8 @@ plugins:
 author:
   name   : "Andras Pokorny"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Recovering Musician and Tinkerer; Industril Design Neophyte"
+  bio    : "Recovering Musician and Tinkerer"
+  bio    : "Industrial Design Neophyte"
 #   links:
 #    - label: "Website"
  #     icon: "fas fa-fw fa-link"
