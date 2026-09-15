@@ -1,8 +1,6 @@
 title: "Andras Pokorny"
 description: "designer"
 
-# theme: jekyll-theme-console
-
 plugins:
   - jekyll-seo-tag
 
@@ -14,4 +12,7 @@ header_pages:
 
 footer: "keep in touch"
 
-style: light
+# SASS Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
